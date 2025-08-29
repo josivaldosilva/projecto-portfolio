@@ -1,10 +1,11 @@
 import React from 'react';
+import { Header } from './assets/Components/Header_components/Header';
 
 function App() {
 
   return (
     <>
-    <h1>oi teste react app</h1>
+      <Header />
     </>
   )
 }

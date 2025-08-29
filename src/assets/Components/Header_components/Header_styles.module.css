@@ -1,0 +1,28 @@
+.header {
+   background-color: var(--highlight);
+   color: var(--text-color);
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: var(--text-color-inverse);
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 12px 15px;
+    transition: background-color 0.3s, color 0.35s ease;
+}
+
+.navbar ul li a:hover{
+    background-color: var(--highlight-inverse);
+    color: var(--highlight);
+}
